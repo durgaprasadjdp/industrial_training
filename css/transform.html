@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        #one{
+            height: 200px;
+            width: 200px;
+            background-color:beige;
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black;
+        }
+        #one:hover{
+            transform: translate(40px, 80px);
+            /* transform: translateX(40px);
+            transform: translateY(80px); */
+            transform: translate3d(10px, 20px, 30px);
+        }
+        #ten{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(54, 163, 0);
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black;
+        }
+        #ten:hover{
+            transform: translateX(40px);
+        }
+        #eleven{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(234, 163, 30);
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black;
+        }
+        #eleven:hover{
+            transform: translateY(40px);
+        }
+        #two{
+            height: 200px;
+            width: 200px;
+            background-color:aquamarine;
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black;
+        }
+        #two:hover{
+            /* cloclwise */
+            transform: rotate(60deg);
+            /* anti-clockwise */
+            transform: rotate(-60deg);
+        }
+        #three{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(163, 255, 127);
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black;
+        }
+        #three:hover{
+            transform: scale(2,3);
+        }
+        #four{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(196, 222, 213);
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #four:hover{
+            transform: scaleX(2)
+        }
+        #five{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(129, 127, 255);
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #five:hover{
+            transform: scaleY(2)
+        }
+        #six{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(241, 226, 56);
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #six:hover{
+            transform: skew(30deg, 10deg);
+        }
+        #seven{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(255, 127, 150);
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #seven:hover{
+            transform: skewX(30deg);
+        }
+        #eight{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(255, 127, 249);
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #eight:hover{
+            transform: skewY(20deg);
+        }
+        #nine{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(210, 213, 30);
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #nine:hover{
+            transform: matrix(1, -0.3, 0, 2, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Transform in CSS</h1></center>
+    <hr>
+    <div id="one">
+        <h4>translate( )</h4>
+    </div>
+    <div id="ten">
+        <h4>translateX( )</h4>
+    </div>
+    <div id="eleven">
+        <h4>translateY( )</h4>
+    </div>
+    <div id="two">
+        <h4>rotate( )</h4>
+    </div>
+    <div id="three">
+        <h4>scale( )</h4>
+    </div>
+    <div id="four">
+        <h4>scaleX( )</h4>
+    </div>
+    <div id="five">
+        <h4>scaleY( )</h4>
+    </div>
+    <div id="six">
+        <h4>skew( )</h4>
+    </div>
+    <div id="seven">
+        <h4>skewX( )</h4>
+    </div>
+    <div id="eight">
+        <h4>skewY( )</h4>
+    </div>
+    <div id="nine">
+        <h4>matrix( )</h4>
+    </div>
+</body>
+</html>
